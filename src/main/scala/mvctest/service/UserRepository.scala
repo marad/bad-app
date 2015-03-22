@@ -1,7 +1,7 @@
 package mvctest.service
 
+import mvctest.domain.User
 import org.springframework.data.repository.CrudRepository
-import mvctest.domain.Hotel
 import java.lang.Long
 
-trait HotelRepository extends CrudRepository[Hotel, Long]
+trait UserRepository extends CrudRepository[User, Long]
